@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Amazon Ember", sans-serif;
+    src: url(/AmazonEmber.ttf);
+}
+@media screen and (min-width: 467px) {
+    .content-box {
+            border: solid 1px rgb(210, 210, 210);
+            width: 300px;
+            margin: auto;
+            padding: 0px 25px 25px 25px;
+        }
+        .content-box > * {
+            margin: 0px;
+            width: 300px;
+            font-weight: bold;
+            padding: 0px;
+        }
+    }
+    #credentialError {
+        margin: auto;
+        width: 300px;
+        border: solid 1px red;
+        display: none;
+        padding-left: 25px;
+        padding-right: 25px;
+        color: red;
+    }
+    
+
+    #credentialError p {
+        color: black    ;
+    }
+
+
+
+    #userIdErrorMsgBox, #pswdErrorMsgBox, #credentialErrorBox {
+        color: red;
+        width: fit-content;
+        height: fit-content;
+        font-weight: normal;
+        display: none;
+    }
+
+    #container {
+        border-bottom: solid 1px #aba6a6;
+        padding-bottom: 1%;
+        width: 80%;
+        margin: auto;
+    }
+    * {
+        font-size: 12px;
+        font-family: Arial;
+    }
+    a {
+        text-decoration: none;
+        color: blue;
+        font-weight: normal;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+    #logo {
+        height: 50px;
+        width: 150px;
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .fld {
+        width: 92%;
+        height: 31px;
+        border: 1px solid #a6a6a6;
+        border-radius: 3px;
+        padding: 0px 10px 0px 10px;
+    }
+    .fld:focus {
+        background-color: #faeecb;
+        outline: none;
+        border: solid 1px rgb(236, 141, 58);
+        box-shadow: rgb(250, 174, 81, 0.5) 0px 5px 15px;
+    }
+    .btn {
+        width: 100%;
+        height: 31px;
+        border: 1px solid #a6a6a6;
+        border-radius: 3px;
+    }
+    .yellowBtn {
+        width: 100%;
+        border: solid 1px #8c8c8b;
+        background-image: linear-gradient(#ffe28a, #f7cc4f);
+        width: 100%;
+    }
+    .yellowBtn:hover {
+        background-image: linear-gradient(#f6d572, #f7cc4f);
+    }
+    .yellowBtn:active {
+        background-image: linear-gradient(rgb(242, 241, 241), rgb(229, 226, 226));
+        
+        box-shadow: rgb(250, 174, 81, 0.5) 0px 5px 15px;
+    }
+    #psParent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #newAmazon {
+        text-align: center;
+    }
+    #box2 {
+        font-weight: normal;
+        border-bottom: 1px grey; 
+    }
+    #bottomBox {
+        padding-top: 2%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+    }
+    #bottomBox > * {
+        margin: auto;
+    }
+    #divBdr {
+        border-top: solid 1px rgb(205, 203, 203);
+        padding-top: 20px;
+    }
+    #usr {
+        color: black;
+    }
+    .cntr {
+        text-align: center;
+    }

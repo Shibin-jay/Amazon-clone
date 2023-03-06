@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+@font-face {
+    font-family: "Amazon Ember", sans-serif;
+    src: url(/AmazonEmber.ttf);
+}
+
+body{
+    font-family: "Amazon Ember", "amazon-ember", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+a,p,button,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    /* color:whitesmoke; */
+}
+h1{
+    font-weight: 200;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    width: 690px;
+}
+p{
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+button{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #0F79AF;
+    color: white;
+    font-weight: 100;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    margin-top: 40px;
+}
+/* Header  */
+header{
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#try-button{
+    background-color: #0F79AF;
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-top: 0;
+    width: 8em;
+}
+#try-button:hover{
+    background-color:#44b5ee ;
+}
+nav{
+    background-color: #1A242F;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 100;
+}
+.left-nav, .right-nav{
+    display: flex;
+    align-items: center;
+}
+.left-nav a{
+    margin: 15px 12px;
+}
+.left-nav img{
+    height: 37px;
+    margin-right: 5px;
+}
+.drop-svg-left{
+    margin-left: -10px;
+    width: 20px;
+}
+/* .right-nav a{
+    background-color: #0F79AF;
+    padding: 8px 20px;
+    border-radius: 2px;
+} */
+.right-nav{
+    margin-right: 20px;
+}
+.right-nav img{
+    margin-left: 3px;
+}
+.globe-img{
+    margin-right: 3px;
+}
+.right-nav-img{
+    padding-left: 20px;
+}
+.drop-svg{
+    width: 20px;
+}
+/* welcome box  */
+.welcome-box{
+    margin-top: 65px;
+    background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 46%, rgba(255,255,255,0) 100%), url(/images/MLP.jpg) ;
+    background-repeat: no-repeat;
+    height: 42em;
+    width: 100%;
+    background-size: 100% !important;
+}
+.welcome-box-content{
+    padding: 180px 0 0 100px;
+}
+.welcome-box-content button{
+    margin-top: 15px;
+}
+/* features  */
+.featured{
+    background-image: linear-gradient(to left, #000 40%, transparent 74%),url("https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100% !important;
+}
+.featured-content{
+    right: 0;
+    padding-top: 150px;
+    float: right;
+    /* padding-left: 1080px; */
+}
+/* channels  */
+.channels{
+    display: flex;
+}
+.channel-left{
+    color: black;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+.channel-right{
+    padding-top: 10px;
+    padding-left: 80px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.channel-right img{
+    width: 27%;
+    transition: box-shadow .3s;
+}
+.channel-right img:hover{
+    box-shadow: 4px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+}
+.fire-stick{
+    height: 548px;
+    background-color: #000;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: relative;
+}
+
+.fire-stick-content{
+    padding-top: 65px;
+    padding-left: 0;
+    padding-right: 3%;
+    margin-right: 0;
+    width: 45%;
+    height: 89.1%;
+    float: right;
+    right: 0;
+}
+.kids-zone{
+    height: 440px;
+    background-image: url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: black;
+    width: 100%;
+    background-position: right;
+    z-index: 1 !important;
+}
+.kids-zone-content{
+    padding: 120px 0 0 100px;
+    width: 40%;
+    height: 80%;
+}
+footer{
+    background-color: #222222;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+footer h5{
+    margin:0;
+    font-weight: 100;
+    color: #949494;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
+    color: #0F79AF;
+    font-size: 14px;
+    margin-right: 18px;
+}
