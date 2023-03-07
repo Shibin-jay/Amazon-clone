@@ -24,6 +24,7 @@
 @media only screen and  (max-width:1024px)  {
     header{
         width: 100%;
+        z-index: 1;
         /* scale: 0.9; */
     }
     .nav-hide{
@@ -57,9 +58,6 @@
         background-size: 60%;
         margin-bottom: 0;
         padding-bottom: 0;
-    }
-    .kids-zone{
-        z-index: 1 !important;
     }
     .kids-zone-content{
         padding: 120px 0 0 50px;
@@ -215,7 +213,7 @@
 }
 @media only screen and  (max-width:425px)  {
     p,h1,button,a{
-        scale: 0.5;
+        /* scale: 0.5; */
         padding: 0;
         margin: 0;
         width: 100%;
