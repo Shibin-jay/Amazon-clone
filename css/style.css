@@ -112,7 +112,7 @@ nav a{
 /* welcome box  */
 .welcome-box{
     margin-top: 65px;
-    background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 46%, rgba(255,255,255,0) 100%), url(/images/MLP.jpg) ;
+    background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 46%, rgba(255,255,255,0) 100%), url("../images/MLP.jpg") ;
     background-repeat: no-repeat;
     height: 42em;
     width: 100%;
