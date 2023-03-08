@@ -51,28 +51,3 @@
     </div>
 </body>
 </html>
-
-<!-- <script>
-    document.querySelector("#signInBtn").addEventListener("click",signfunction);
-    var usercred = JSON.parse(localStorage.getItem("usercredentials"))||[];
-    function signfunction(){
-        var userid = document.querySelector("#userId").value;
-
-        var password = document.querySelector("#pswd").value;
-
-        var obj = {
-            username : userid,
-            passwords : password
-        }
-
-        usercred.push(obj);
-        localStorage.setItem("usercredentials",JSON.stringify(usercred));  
-        
-        var userid = document.querySelector("#userId").value="";
-
-        var password = document.querySelector("#pswd").value="";
-        alert("login successfull");
-
-        window.location.href="homepage/index.html"
-    }
-</script> -->
